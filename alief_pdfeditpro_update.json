@@ -1,0 +1,21 @@
+{
+ "product": "ALIEF_PDFEDITPRO",
+ "version": "1.2.0",
+ "date": "2026-11-14",
+ "notes": [
+  "Watermark buatan sendiri: tulisan bebas (beberapa baris), pilih jenis huruf, tebal/miring, huruf berongga / isi / isi + outline, warna, transparansi, sudut, posisi, ukuran, tile, di depan atau di belakang isi halaman",
+  "Watermark logo / gambar: PNG, JPG, BMP, TIF, SVG, PDF; halaman diisi manual (mis. 1-5, 8, 10-12) + semua / ganjil / genap; preview langsung; disimpan dengan nama; bisa dihapus lagi",
+  "Update otomatis: pemeriksaan versi baru saat program dibuka dan tiap 4 jam, unduh di latar belakang, notifikasi banner + Windows, Restart now"
+ ],
+ "min_runtime": 1,
+ "packages": [
+  {
+   "name": "app",
+   "file": "app-1.2.0.zip",
+   "size": 5369978,
+   "sha256": "a5904e64545c3b06c19ffaaa0314c3d73ed5c42335dabc428a59b4ceabb73667",
+   "url": "https://raw.githubusercontent.com/aliefen/alief-pdfeditpro-update/main/app-1.2.0.zip"
+  }
+ ],
+ "sig": "Lvb0SMUnWXlRDPFFhttqPYxoutbZNaudQLERG6NxZB3JXwhXcptPtMdXPWG1Tw2A1PbfMhzWgNetJIoCpagSDw=="
+}
