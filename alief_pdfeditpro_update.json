@@ -1,30 +1,29 @@
 {
  "product": "ALIEF_PDFEDITPRO",
- "version": "1.4.0",
+ "version": "1.4.1",
  "date": "2026-11-27",
  "notes": [
-  "PDF 3D: buka dan review model 3D (U3D / PRC) dari ALIEF PDF PRO atau software lain - klik model dengan Hand tool atau HOME > 3D Model: putar, geser, zoom, view tersimpan + view standar, mode tampilan & pencahayaan, model tree (sembunyikan / isolasi / transparan / warna)",
-  "Potongan (cross section) X / Y / Z / bebas dengan garis potong, ukur jarak / sudut / sudut bidang / radius / koordinat dengan snap ke vertex & edge, komentar 3D tersimpan di PDF (dengan posisi kamera), snapshot, poster, sisipkan sebagai halaman, export STL / OBJ",
-  "Model 3D tanpa poster langsung tampil (preview) di halaman PDF; file .u3d dan .prc bisa dibuka langsung",
-  "Navigation pane default auto hide: tombol di sisi kiri, panel keluar saat tombol diklik / disentuh mouse dan tersembunyi lagi otomatis; tombol pin = tetap terbuka (F4 / VIEW > Navigation Pane)",
-  "Update ini menyertakan komponen OpenGL untuk jendela 3D (sekali saja, +/- 11 MB)"
+  "3D Review: mode Walk / Fly (first person) - berjalan di dalam model 3D setinggi mata (default 1,60 m) untuk melihat bagian dalam secara realistis: mengikuti deck dan tangga, turun lewat bukaan, berhenti di dinding / bulkhead, bisa lewat pintu; Fly = terbang bebas",
+  "Kontrol Walk: W A S D / panah = jalan, drag mouse = melihat sekeliling, Shift = lari, Ctrl = pelan, Q / E = turun / naik, dobel-klik = berdiri di deck yang diklik, Esc = kembali ke Orbit",
+  "Panel Walk / Fly: tinggi mata, kecepatan (m/s), field of view, ikuti deck & tangga, berhenti di dinding, depth fade, lighting Interior (lampu atas + senter kepala); part yang disembunyikan tidak menghalangi jalan"
  ],
  "min_runtime": 1,
  "packages": [
   {
    "name": "app",
-   "file": "app-1.4.0.zip",
-   "size": 7368078,
-   "sha256": "f299bd852defb6ac0143ad83308f66f466f34dda6f3d33c4b20783823de75dcc",
-   "url": "https://raw.githubusercontent.com/aliefen/alief-pdfeditpro-update/main/app-1.4.0.zip"
+   "file": "app-1.4.1.zip",
+   "size": 7531258,
+   "sha256": "9103f7812d3c900cca3957979d01257761252007bbfcb0d2054ddc54cec238c1",
+   "url": "https://raw.githubusercontent.com/aliefen/alief-pdfeditpro-update/main/app-1.4.1.zip"
   },
   {
    "name": "qtgl",
    "file": "qtgl-6.12.0.zip",
    "size": 10684685,
    "sha256": "8de104150950e9b35eb341f26762718a342e34a97b87160b714e601a58151e22",
-   "url": "https://raw.githubusercontent.com/aliefen/alief-pdfeditpro-update/main/qtgl-6.12.0.zip"
+   "url": "https://raw.githubusercontent.com/aliefen/alief-pdfeditpro-update/main/qtgl-6.12.0.zip",
+   "max_runtime": 1
   }
  ],
- "sig": "x5GfuQlRH5FKlTl3nhQdg+FJlflT8f/ph5ZomgDLEru+5rBPaUTiJ4i1qflvO3aSwRxKbkuUDfSaoWP7Q1GlAg=="
+ "sig": "lwEt0T+zacrYnhCf5QD0JFrgk51QWOn8re6JOXVXuv/9MaajXjGoESS2ZsQKGvcItOFyJhJBds8OpEjmKIMfAA=="
 }
